@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Hoogah</title>
+</head>
+<body>
+    <div class="mainBox">
+        <button class="timerBtn" id="oneMin" value="1" onfocus=update(value)>1:00</button>
+        <button class="timerBtn" id="twoMin" value="2" onfocus=update(value)>2:00</button>
+        <button class="timerBtn" id="fiveMin" value="5" onfocus=update(value)>5:00</button>
+        <p class="mainText">You've successfully finished your session.</p>
+        <p class="mainText2">Start one more if it relaxed your mind.</p>
+        <a class="startBtn" href="Hoogah1.html" onclick=initiate()>START</a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="timer.js"></script>
+</body>
+</html>
